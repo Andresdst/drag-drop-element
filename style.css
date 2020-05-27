@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  display: inline-block;
+}
+li {
+  list-style-type: none;
+}
+.card {
+  background: white;
+  margin-top: 10px;
+  padding: 7px;
+  width: 400px;
+  height: 100px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.19),
+    0px 2px 10px 0 rgba(0, 0, 0, 0.13); /*derecha abajo difuminado color*/
+}
+
+.dragging {
+  position: fixed;
+}
